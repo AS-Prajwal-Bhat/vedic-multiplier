@@ -1,9 +1,3 @@
-# Run from the project root with Vivado Tcl:
-#   vivado -mode batch -source scripts/create_project.tcl
-#
-# IMPORTANT: Change PART to the exact FPGA part on your board.
-# This default is only an example (Basys 3 Artix-7); it is not universal.
-
 set PROJECT_NAME "Vedic_Multiplier"
 set PROJECT_DIR  [file normalize "./vivado_project"]
 set PART         "xc7a35tcpg236-1"
